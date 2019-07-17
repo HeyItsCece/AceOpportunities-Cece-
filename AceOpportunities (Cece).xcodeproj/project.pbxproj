@@ -13,6 +13,7 @@
 		CCC1016322DE44A40041EB8D /* AceOpportunities__Cece_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCC1016122DE44A40041EB8D /* AceOpportunities__Cece_.xcdatamodeld */; };
 		CCC1016522DE44A50041EB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC1016422DE44A50041EB8D /* Assets.xcassets */; };
 		CCC1016822DE44A50041EB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC1016622DE44A50041EB8D /* LaunchScreen.storyboard */; };
+		CCDFAF7B22DF786600EC954D /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDFAF7A22DF786600EC954D /* RecommendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CCC1016422DE44A50041EB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCC1016722DE44A50041EB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCC1016922DE44A50041EB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDFAF7A22DF786600EC954D /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CCC1015A22DE44A40041EB8D /* AppDelegate.swift */,
 				CCC1015C22DE44A40041EB8D /* ViewController.swift */,
 				CCC1015E22DE44A40041EB8D /* Main.storyboard */,
+				CCDFAF7A22DF786600EC954D /* RecommendViewController.swift */,
 				CCC1016422DE44A50041EB8D /* Assets.xcassets */,
 				CCC1016622DE44A50041EB8D /* LaunchScreen.storyboard */,
 				CCC1016922DE44A50041EB8D /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC1016322DE44A40041EB8D /* AceOpportunities__Cece_.xcdatamodeld in Sources */,
+				CCDFAF7B22DF786600EC954D /* RecommendViewController.swift in Sources */,
 				CCC1015D22DE44A40041EB8D /* ViewController.swift in Sources */,
 				CCC1015B22DE44A40041EB8D /* AppDelegate.swift in Sources */,
 			);
