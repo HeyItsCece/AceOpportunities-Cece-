@@ -32,4 +32,12 @@ class RecommendViewController: UIViewController {
     var Opportunities: [String] = ["Testing 1", "Testing 2", "Testing 3"]
     
     
+    let Opportunities = ["Testing 1", "Testing 2", "Testing 3"]
+    let randomOpportunity = Opportunities.randomElement()
+
+  
+    func getReccomendation() {
+        
+        
+    }
 }
