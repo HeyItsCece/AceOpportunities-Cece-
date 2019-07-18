@@ -36,7 +36,21 @@ class RecommendViewController: UIViewController {
     let randomOpportunity = Opportunities.randomElement()
 
   
+    @IBAction func handleAgainstUserInput(_ sender: Any) {
+        var newOpportunity.userInputTextField.text
+        Opportunities.append(newOpportunity!)
+        userInputTextField.resighFirstResponder()
+        userInputTextField.text = ""
+    }
+    @IBOutlet weak var userInputTextField: UILabel!
+    
     func getReccomendation() {
+        var randomOpportunity = Opportunities.randomelement()
+        RecommendLabel.text = randomOpportunity
+        showImageView.image = UIImage(named: randomOpportunity!)
+        
+        
+        
         
         
     }

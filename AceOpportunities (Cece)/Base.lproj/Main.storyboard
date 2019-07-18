@@ -159,6 +159,7 @@
                                 <state key="normal" title="Randomize"/>
                                 <connections>
                                     <action selector="HandlePickOpportunity:" destination="mQU-co-wHv" eventType="touchUpInside" id="Z7d-0d-rvt"/>
+                                    <action selector="handleAgainstUserInput:" destination="mQU-co-wHv" eventType="touchUpInside" id="QTe-UN-YmW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -167,6 +168,7 @@
                     </view>
                     <connections>
                         <outlet property="RecommendLabel" destination="lQ7-BD-bRs" id="Vp4-Om-UTt"/>
+                        <outlet property="userInputTextField" destination="lQ7-BD-bRs" id="QUZ-BD-4hO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nye-6A-JAs" userLabel="First Responder" sceneMemberID="firstResponder"/>
