@@ -151,6 +151,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="List"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of opportunity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQ7-BD-bRs">
+                                <rect key="frame" x="96" y="202" width="203.5" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="dfZ-uZ-7fw"/>
+                                    <constraint firstAttribute="width" constant="203.5" id="vkU-aO-Sld"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nm-ca-sIJ">
                                 <rect key="frame" x="111.5" y="518" width="191" height="60"/>
                                 <constraints>
@@ -164,26 +174,23 @@
                                     <action selector="handleAgainstUserInput:" destination="mQU-co-wHv" eventType="touchUpInside" id="QTe-UN-YmW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title of opportunity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQ7-BD-bRs">
-                                <rect key="frame" x="96" y="202" width="203.5" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="dfZ-uZ-7fw"/>
-                                    <constraint firstAttribute="width" constant="203.5" id="vkU-aO-Sld"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ACE Logo" translatesAutoresizingMaskIntoConstraints="NO" id="2d2-3P-p6d">
+                                <rect key="frame" x="115" y="286" width="184" height="181"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.71583488539999995" green="1" blue="0.90682679389999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XmM-vg-BVM" firstAttribute="centerX" secondItem="QJE-Hl-hKD" secondAttribute="centerX" constant="-127" id="1He-IT-hhp"/>
                             <constraint firstItem="0nm-ca-sIJ" firstAttribute="centerX" secondItem="QJE-Hl-hKD" secondAttribute="centerX" id="3w8-8O-lLn"/>
+                            <constraint firstItem="2d2-3P-p6d" firstAttribute="centerX" secondItem="QJE-Hl-hKD" secondAttribute="centerX" id="BwI-iw-dBq"/>
                             <constraint firstItem="suZ-pJ-z65" firstAttribute="centerX" secondItem="QJE-Hl-hKD" secondAttribute="centerX" constant="134.5" id="JyT-Li-s9q"/>
                             <constraint firstItem="XmM-vg-BVM" firstAttribute="centerY" secondItem="QJE-Hl-hKD" secondAttribute="centerY" constant="388.5" id="YXk-Ae-h13"/>
+                            <constraint firstItem="2d2-3P-p6d" firstAttribute="centerX" secondItem="QJE-Hl-hKD" secondAttribute="centerX" id="d59-sA-Sns"/>
                             <constraint firstItem="lQ7-BD-bRs" firstAttribute="centerX" secondItem="QJE-Hl-hKD" secondAttribute="centerX" constant="-9.5" id="d6o-78-DMA"/>
                             <constraint firstItem="lQ7-BD-bRs" firstAttribute="centerY" secondItem="QJE-Hl-hKD" secondAttribute="centerY" constant="-231" id="f2f-G5-Xht"/>
+                            <constraint firstItem="2d2-3P-p6d" firstAttribute="centerY" secondItem="QJE-Hl-hKD" secondAttribute="centerY" id="pz1-Wl-D9T"/>
                             <constraint firstItem="0nm-ca-sIJ" firstAttribute="centerY" secondItem="QJE-Hl-hKD" secondAttribute="centerY" constant="100" id="s3U-VU-F5Q"/>
+                            <constraint firstItem="2d2-3P-p6d" firstAttribute="centerY" secondItem="QJE-Hl-hKD" secondAttribute="centerY" constant="-71.5" id="xe6-iR-wU8"/>
                             <constraint firstItem="suZ-pJ-z65" firstAttribute="centerY" secondItem="QJE-Hl-hKD" secondAttribute="centerY" constant="388" id="yBc-W0-qaE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="1Wr-Gy-qiu"/>
@@ -198,4 +205,7 @@
             <point key="canvasLocation" x="1366.6666666666667" y="18.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ACE Logo" width="184" height="181"/>
+    </resources>
 </document>
