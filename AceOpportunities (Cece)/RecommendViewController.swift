@@ -29,27 +29,20 @@ class RecommendViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    var Opportunities: [String] = ["Testing 1", "Testing 2", "Testing 3"]
-    
+   
     
     let Opportunities = ["Testing 1", "Testing 2", "Testing 3"]
-    let randomOpportunity = Opportunities.randomElement()
 
   
     @IBAction func handleAgainstUserInput(_ sender: Any) {
-        var newOpportunity.userInputTextField.text
-        Opportunities.append(newOpportunity!)
-        userInputTextField.resighFirstResponder()
-        userInputTextField.text = ""
+        getRecommendation()
     }
     @IBOutlet weak var userInputTextField: UILabel!
     
-    func getReccomendation() {
-        var randomOpportunity = Opportunities.randomelement()
+    func getRecommendation() {
+        var randomOpportunity = Opportunities.randomElement()
         RecommendLabel.text = randomOpportunity
-        showImageView.image = UIImage(named: randomOpportunity!)
-        
-        
+      
         
         
         
